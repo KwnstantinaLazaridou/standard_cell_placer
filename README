@@ -1,0 +1,16 @@
+Thesis : "Develop a new legalizer algorithm"
+
+Reads circuits description and applies legalization algorithms measuring performance.
+
+EDA_testcase: Folder with testbenches
+include: Folder with include files
+src: source code 
+
+NangateLibrarySizes: File that contains techonology need
+run_tesh.sh: bash script for running all testbenches
+
+How to compile:
+gcc src/lists.c src/common.c src/parseEdaFiles.c src/legalizer1.c main.c  -o main.out -lm
+
+How to run:
+./main.out EDA-testcase/unlegalized_cells/S27.txt EDA-testcase/nets/S27.txt EDA-testcase/dimensions/S27.txt

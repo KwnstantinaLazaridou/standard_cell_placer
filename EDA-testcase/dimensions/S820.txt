@@ -1,0 +1,1 @@
+chip height = 18.200000 chip width = 16.961154

@@ -1,0 +1,7 @@
+lists: contains all the necessary functions for the lists needed.
+
+common: contains functions needed not only by legalizers, but are generic
+
+legalizer: contains algorithms for legalization of circuits' standard cells
+
+parseEdaFile: parse EDA files containted in EDA_testcase folder. These files are circuits' descriptions.
